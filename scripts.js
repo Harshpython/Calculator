@@ -1,10 +1,11 @@
-#Full process implemented usinmg Javascript
+#Full process implemented using Javascript
 
 let string = "";
 let buttons = document.querySelectorAll('.button');
 Array.from(buttons).forEach((button) => {
-  button.addEventListener('click', (e) => {
+  button.addEventListener('click', (e) => { # source code of the calculator
     if (e.target.innerHTML == '=') {
+      
       string = eval(string);
       document.querySelector('input').value = string;
 
