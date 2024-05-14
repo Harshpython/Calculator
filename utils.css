@@ -3,7 +3,7 @@
 }
 # background color
 .bg-red {
-  background: red;
+  background: red; # adding the backgrouund color
 }
 
 .mx-auto { # tag
