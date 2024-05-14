@@ -6,7 +6,7 @@ html {
 .button {
   width: 66px;# button tag
   padding: 20px;
-  margin: 0 3px;
+  margin: 0 3px; #adding margin,width,border all the attributes for styling
   border: 2px solid black;
   border-radius: 9px;
   cursor: pointer;
