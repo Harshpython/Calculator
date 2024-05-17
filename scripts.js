@@ -6,7 +6,7 @@ Array.from(buttons).forEach((button) => {
   button.addEventListener('click', (e) => { # source code of the calculator
     if (e.target.innerHTML == '=') {
       
-      string = eval(string);
+      string = eval(string);# string evaluation
       document.querySelector('input').value = string;
 
     }
